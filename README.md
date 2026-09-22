@@ -100,3 +100,17 @@ data/raw/, 2018 CSVs in data/raw_2018/.
        2017        2018      2017        2018
      testing     testing    testing     testing
 ```
+
+
+## Methodological guarantees
+
+- No target leakage: IP/port/timestamp identifiers dropped before training
+- SMOTE applied only to the training partition, post-split — never to test data
+- Evaluation on untouched real-ratio test data (no synthetic rows anywhere in
+  evaluation sets)
+- All reported numbers traceable to files in `results/tables/`
+
+## References
+
+Sharafaldin et al. 2018 (CICIDS2017) · Engelen et al. 2021 (dataset errors) ·
+Chawla et al. 2002 (SMOTE) · Sarhan/Layeghy/Portmann (NF-v2, future work)
