@@ -1,0 +1,10 @@
+Zero-day probe - Random Forest (SMOTE regime)
+
+Destination of never-seen attacks:
+BENIGN    47
+
+Rows = true (hidden) class, columns = model's guess:
+col_0         BENIGN
+label               
+Heartbleed        11
+Infiltration      36

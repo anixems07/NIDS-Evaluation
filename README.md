@@ -78,8 +78,6 @@ data/raw/, 2018 CSVs in data/raw_2018/.
 │   ├── tables/               # Metric reports, verdict tables, label mappings
 │   └── models/               # Trained models (gitignored)
 │
-├── reports/                  # Experiment write-ups
-├── PROGRESS.md               # Task tracker
 ├── requirements.txt
 └── README.md
 ```

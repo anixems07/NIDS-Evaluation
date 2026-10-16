@@ -1,0 +1,47 @@
+,mean_abs_shap
+Packet Length Variance,0.106454
+Bwd Packet Length Max,0.077922
+Fwd IAT Std,0.06961
+Packet Length Mean,0.058038
+Init_Win_bytes_backward,0.056611
+Flow IAT Std,0.045057
+Max Packet Length,0.044861
+Flow IAT Max,0.042015
+Fwd Packet Length Max,0.039658
+Fwd IAT Mean,0.03881
+FIN Flag Count,0.035917
+Fwd Packet Length Mean,0.030818
+Total Length of Fwd Packets,0.028107
+Flow Packets/s,0.026011
+Fwd Header Length,0.024891
+Flow IAT Mean,0.023716
+Init_Win_bytes_forward,0.020596
+Bwd Header Length,0.019327
+Total Fwd Packets,0.017462
+Bwd Packets/s,0.015644
+Flow Duration,0.014912
+Bwd Packet Length Min,0.00804
+Flow Bytes/s,0.007582
+act_data_pkt_fwd,0.007019
+Fwd Packet Length Min,0.006618
+Min Packet Length,0.006036
+Active Max,0.0056
+Bwd IAT Max,0.004704
+Bwd IAT Std,0.0046
+Bwd IAT Total,0.004351
+Active Mean,0.00426
+min_seg_size_forward,0.004244
+Fwd IAT Min,0.004216
+Active Min,0.0036
+PSH Flag Count,0.003428
+Bwd IAT Mean,0.003283
+Down/Up Ratio,0.002724
+ACK Flag Count,0.00271
+Active Std,0.001896
+Flow IAT Min,0.001435
+Bwd IAT Min,0.001396
+URG Flag Count,0.001274
+Idle Std,0.000705
+Fwd PSH Flags,0.000307
+RST Flag Count,1e-06
+Fwd URG Flags,0.0

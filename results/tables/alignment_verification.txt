@@ -1,0 +1,39 @@
+CHECK 1 — STRUCTURAL
+  Shape: (2931071, 46) (expect ~2.9M x 46)
+  Columns identical to 2017 list: True (must be True)
+CHECK 2 — CLEANLINESS
+  NaN cells: 0 (expect 0)
+  Inf cells: 0 (expect 0)
+CHECK 3 — LABELS
+  All codes legal 2017 codes: True
+  No Heartbleed(8)/Infiltration(9): True
+  Classes present: 10 (expect 10)
+label
+DDoS                1263933
+DoS Hulk             461912
+BENIGN               344776
+Bot                  286191
+FTP-Patator          193354
+SSH-Patator          187589
+DoS Slowhttptest     139890
+DoS GoldenEye         41508
+DoS slowloris         10990
+Web Attack              928
+CHECK 4 — DISTRIBUTIONS (units/semantics per feature)
+                             2017      2018   ratio
+Fwd IAT Min                  3.00    446.00  148.67
+Flow IAT Min                 4.00    408.00  102.00
+Init_Win_bytes_forward     235.00   8192.00   34.86
+Flow Packets/s              53.11    336.19    6.33
+Fwd IAT Mean               378.00   2095.00    5.54
+Init_Win_bytes_backward     -1.00     -1.00    1.00
+Total Fwd Packets            2.00      2.00    1.00
+min_seg_size_forward        20.00     20.00    1.00
+Fwd Header Length           64.00     40.00    0.62
+Flow IAT Mean            30619.00   5340.00    0.17
+Flow IAT Max             61293.00  10348.00    0.17
+Flow Duration            76860.00  11201.00    0.15
+CHECK 5 — IDENTITY SANITY (fraction passing; want ~1.000)
+  Init_Win_bytes_forward in [-1, 65535]: 1.0
+  FIN Flag Count >= 0: 1.0
+  Total Fwd Packets integer-valued: 1.0

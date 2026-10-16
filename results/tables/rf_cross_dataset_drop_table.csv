@@ -1,0 +1,21 @@
+model,class,within_f1,cross_f1,drop
+rf_imbalanced,DDoS,1.0,0.0,1.0
+rf_imbalanced,FTP-Patator,0.999,0.0,0.999
+rf_imbalanced,DoS Hulk,0.998,0.0,0.998
+rf_imbalanced,SSH-Patator,0.992,0.0,0.992
+rf_imbalanced,Web Attack,0.973,0.0,0.973
+rf_imbalanced,DoS Slowhttptest,0.971,0.0,0.971
+rf_imbalanced,BENIGN,0.999,0.211,0.788
+rf_imbalanced,Bot,0.715,0.0,0.715
+rf_imbalanced,DoS GoldenEye,0.996,0.289,0.707
+rf_imbalanced,DoS slowloris,0.998,0.865,0.133
+rf_smote,DDoS,0.999,0.0,0.999
+rf_smote,DoS Hulk,0.997,0.0,0.997
+rf_smote,FTP-Patator,0.996,0.0,0.996
+rf_smote,SSH-Patator,0.995,0.0,0.995
+rf_smote,DoS Slowhttptest,0.967,0.0,0.967
+rf_smote,Web Attack,0.935,0.0,0.935
+rf_smote,BENIGN,0.999,0.236,0.763
+rf_smote,Bot,0.654,0.0,0.654
+rf_smote,DoS GoldenEye,0.99,0.483,0.507
+rf_smote,DoS slowloris,0.995,0.847,0.148

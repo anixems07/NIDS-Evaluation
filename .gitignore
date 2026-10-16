@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+myenv/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# ----------------------------------------------------
+# Project Data & Models (Do NOT commit huge binaries)
+# ----------------------------------------------------
+# Raw & processed datasets (locally supplied or regenerable via
+# src/preprocess_v2.py)
+data/
+
+# Generated experiment reports
+reports/
+PROGRESS.md
+
+# Logs & Local Configs
+*.log
+pyrightconfig.json
+
+# Trained Model Binaries (regenerable via src/train_rf.py)
+results/models/*
+!results/models/.gitkeep
+*.joblib
+*.pkl
+*.model
+
+# Explicitly track results figures and tables
+!results/figures/*
+!results/tables/*
+

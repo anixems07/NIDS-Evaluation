@@ -1,0 +1,74 @@
+Found 8 CSV files
+Raw merged shape: (2830743, 79)
+Dropped leakage columns: ['Destination Port']
+Rows dropped for inf/NaN: 2867
+Duplicates removed: 594712
+Dropped zero-variance columns: ['Bwd PSH Flags', 'Bwd URG Flags', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate']
+
+Class distribution before balancing:
+Label
+BENIGN              1896672
+DoS Hulk             172846
+DDoS                 128014
+DoS GoldenEye         10286
+FTP-Patator            5931
+DoS slowloris          5385
+DoS Slowhttptest       5228
+SSH-Patator            3219
+Web Attack             2143
+PortScan               1956
+Bot                    1437
+Infiltration             36
+Heartbleed               11
+
+Dropped 23 highly correlated columns
+
+Label mapping:
+ code       label_name       family
+    0           BENIGN       Benign
+    1              Bot          Bot
+    2             DDoS         DDoS
+    3    DoS GoldenEye          DoS
+    4         DoS Hulk          DoS
+    5 DoS Slowhttptest          DoS
+    6    DoS slowloris          DoS
+    7      FTP-Patator  Brute Force
+    8       Heartbleed      Exploit
+    9     Infiltration Infiltration
+   10         PortScan        Recon
+   11      SSH-Patator  Brute Force
+   12       Web Attack          Web
+Saved cleaned dataset, shape=(2233164, 48)
+
+ZERO-DAY holdout ['Heartbleed', 'Infiltration']: 47 rows (never trained on, never SMOTEd)
+Known classes for training: 11
+Split: train=(1786493, 46), test=(446624, 46), zero-day probe=(47, 46)
+Saved benign-only sample: (300000, 46) (+ scaler stats)
+
+Training set after balancing: (800000, 46)
+Label_encoded
+0     300000
+1      50000
+2      50000
+3      50000
+4      50000
+5      50000
+6      50000
+7      50000
+10     50000
+11     50000
+12     50000
+
+=========================================
+PREPROCESSING SUMMARY (v2)
+=========================================
+Raw rows:                  2830743
+After inf/NaN removal:     2827876
+After dedup:               2233164
+Final feature count:       46
+Classes in train (known):  11
+Zero-day rows held out:    47
+Train (balanced):          (800000, 46)
+Test (untouched, real ratio): (446624, 46)
+Benign sample (anomaly):   (300000, 46)
+========================================

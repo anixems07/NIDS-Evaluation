@@ -1,0 +1,6 @@
+Accuracy: 0.9983
+Macro F1: 0.9495
+Weighted F1: 0.9984
+Balanced Accuracy: 0.9858
+MCC: 0.9937
+Benign FPR: 0.1421%

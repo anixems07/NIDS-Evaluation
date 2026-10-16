@@ -1,0 +1,7 @@
+metric,smote,imbalanced
+Accuracy,0.9983,0.9989
+Macro F1,0.9495,0.9595
+Weighted F1,0.9984,0.9989
+Balanced Accuracy,0.9858,0.9492
+MCC,0.9937,0.9960
+Benign FPR,0.1421%,0.0467%

@@ -1,0 +1,14 @@
+code,label_name,family
+0,BENIGN,Benign
+1,Bot,Bot
+2,DDoS,DDoS
+3,DoS GoldenEye,DoS
+4,DoS Hulk,DoS
+5,DoS Slowhttptest,DoS
+6,DoS slowloris,DoS
+7,FTP-Patator,Brute Force
+8,Heartbleed,Exploit
+9,Infiltration,Infiltration
+10,PortScan,Recon
+11,SSH-Patator,Brute Force
+12,Web Attack,Web
